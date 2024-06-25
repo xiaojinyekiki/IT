@@ -18,3 +18,7 @@ spring:
 mybatis:
   mapper-locations:  classpath:com/eden/mapper/*.xml
   type-aliases-package:  com.eden.entity
+
+file:
+  upload:
+    dir: C:\work\java\manageemp\upload
