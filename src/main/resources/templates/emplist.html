@@ -29,7 +29,7 @@
             <p id="whereami">
             </p>
             <h1>
-                ようこそ <span th:if="${session.admin==null}"th:text="${session.admin.realname}"/>
+                ようこそ <span th:if="${session.admin!=null}" th:text="${session.admin.realname}"/>
 				<span th:if="${session.admin==null}">ゲスト</span>
             </h1>
             <table class="table">

@@ -43,7 +43,7 @@ public class EmployeeController {
 		
 		String newfileName = filePrefix + fileSuffix;
 		
-		img.transferTo(new File(photoPath,fileName));
+		img.transferTo(new File(photoPath,newfileName));
 		return "emplist";
 	}
 
